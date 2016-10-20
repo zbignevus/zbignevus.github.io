@@ -1,0 +1,67 @@
+img{
+}
+
+.media-small{
+  font-size:11px;
+}
+
+
+
+div..navigation-bar{
+  height:150px;
+  width:100%;
+  background:"#47464B";
+  background-color:#47464B;
+}
+
+.footer-icons{
+  margin:5px;
+  font-size:30px;
+}
+.progress-bar-mongodb{
+  background-color: #FCA539;
+}
+.progress-bar-nodejs {
+  background-color: #339933;
+}
+.progress-bar-html5 {
+  background-color: #E34C26;
+}
+.progress-bar-angular {
+  background-color: #b52e31;
+}
+.progress{
+  cursor: pointer;
+  height: 13px;
+}
+
+a i {
+  color: #47464B;
+}
+/* tooltip color settings */
+.tooltip-inner {
+    background-color: #47464B;
+    color: #fff;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #47464B;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: #47464B;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #47464B;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: #47464B;
+}
+/* end of tooltip color settings */
+
+.modal-header{
+  background-color: #47464B;
+  color: #fff;
+}
