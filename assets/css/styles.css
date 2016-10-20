@@ -24,6 +24,8 @@ div..navigation-bar{
 .progress-bar-nodejs {
   background-color: #339933;
 }
+
+
 .progress-bar-html5 {
   background-color: #E34C26;
 }
@@ -68,4 +70,9 @@ a i {
 .thumbTitle {
   text-decoration: none;
   color: #47464B;
+}
+@media (max-width: 767px) {
+    .tempSmall {
+      font-size: 9px;
+    }
 }
