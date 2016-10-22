@@ -71,8 +71,8 @@ a i {
   text-decoration: none;
   color: #47464B;
 }
-@media (max-width: 767px) {
+@media (max-width: 380px) {
     .tempSmall {
-      font-size: 9px;
+      font-size: 7px;
     }
 }
