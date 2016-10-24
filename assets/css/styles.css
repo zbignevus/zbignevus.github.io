@@ -18,14 +18,13 @@ div..navigation-bar{
   margin:5px;
   font-size:30px;
 }
+
 .progress-bar-mongodb{
   background-color: #FCA539;
 }
 .progress-bar-nodejs {
   background-color: #339933;
 }
-
-
 .progress-bar-html5 {
   background-color: #E34C26;
 }
@@ -70,6 +69,13 @@ a i {
 .thumbTitle {
   text-decoration: none;
   color: #47464B;
+}
+.fade{
+    opacity: 1;
+    transition: opacity .25s ease-in-out;    
+}
+.fade:hover {
+    opacity: 0.7;
 }
 @media (max-width: 380px) {
     .tempSmall {
