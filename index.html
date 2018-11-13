@@ -1,153 +1,90 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <script>
-    $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-    $('.progress-bar-angular').animate({width: "70%"}, 1800, function(){
-    $('.descr').animate({opacity: 1});
-    });
-    $('.progress-bar-express').animate({width: "40%"}, 1800);
-    $('.progress-bar-mongodb').animate({width: "40%"}, 1800);
-    $('.progress-bar-nodejs').animate({width: "35%"}, 1800);
-    $('.progress-bar-bootstrap').animate({width: "90%"}, 1800);
-    $('.progress-bar-html5').animate({width: "80%"}, 1800);
-    });
-    </script>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Caveat+Brush|Abril+Fatface|Bangers|Fira+Sans|Courgette|Pacifico|Permanent+Marker" rel="stylesheet" />
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <header><h1 class="text-center">Welcome to my Portfolio Page!</h1>
-                <p class="text-center">Here you will find all the projects I have worked on individually as well as those I have participated in.</p></header>
-            </div>
-            <div class="col-md-12">
-                <hr>
-            </div>
-        </div>
-        <!--experimental row
-        <div class="row">
-            <div class="col-md-12">
-                <div id="container">
-                     
-                    <div class="progress">
-                        <div class="progress-bar experimental" role="progressbar" aria-valuenow="70"
-                             aria-valuemin="0" aria-valuemax="100" style="width:5%">
-                            <span class="sr-only">70% Complete</span>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="media">
-                            <div class="media-left media-top">
-                                <a><img src="assets/img/avatar.jpg" width="50" height="55" style="margin-top:15px;"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>Who I am</h4>
-                                <p class="media-small">A few words about me</p>
-                                <p>My name is Zbignev Boreiko. I have started my journey unto becoming a web developer ever since I have deteremined that to be my career path in the last year of my Computer Science curricula. I enjoy working with Javascript,
-                                    particularly with it's frameworks such as AngularJS, Node and Express. My working environment consists of tools like the GIT version system, NPM, workflow automations like Nodemon and Atom Open Source IDE. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h4>My Skills</h4>
-                        <p class="media-small">What I am good at</p>
-                    </div>
-                    <div class="col-md-6 col-md-offset-0">
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-angular progress-bar-striped active fade" data-toggle="tooltip" data-placement="top" title="I build SPA's using modules that are IFFE encapsulated and segregated by functionality."aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span class="descr">AngularJS(pre-advanced)</span>
-                          </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-express progress-bar-info progress-bar-striped active fade" data-toggle="tooltip" data-placement="top" title="I am capable of writing a RESTful API performing common CRUD functions from scratch while using the best practices to do so." aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><span class="descr">Express(intermediate)</span>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-mongodb progress-bar-striped active fade" data-toggle="tooltip" data-placement="top" title="I use Mongoose for data models, MLab as a remote database service aswell as Mongo Shell to communicate with the db directly." aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><span class="descr">MongoDB(intermediate)</span>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-nodejs progress-bar-warning progress-bar-striped active fade" data-toggle="tooltip" data-placement="top" title="I build applications around it by using NPM, modules, setting working enviroments, environment variables." aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><span class="descr tempSmall">NodeJS(low-intermediate)</span>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-bootstrap progress-bar-striped active fade" data-toggle="tooltip" data-placement="top" title="I also use themes, templates, preprocessors such as LESS for an easier and scalable UI build." aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span class="descr">Bootstrap(advanced)</span>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-html5 progress-bar-striped active fade" data-toggle="tooltip" title="I use the latest HTML5 and css3 elements in my projects and have a habit of closing tags even when it's unnecessary..." aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span class="descr">HTML5/CSS3(advanced)</span>
-                            </div>
-                        </div>
+  <div class="top-section">
+      <div class="navs">
+      <a href="https://www.linkedin.com/in/zbignev-boreiko-03944aa8/">LinkedIn</a>
+      <a href="https://www.facebook.com/zbignevas.boreiko">Facebook</a>
+      <a href="mailto:zbignevus@gmail.com">Gmail</a>
+      </div>
 
-                    </div>
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12"></div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-4 col-sm-4">
-                        <div class="thumbnail"><a href="http://orai.herokuapp.com"><img src="assets/img/oras_thumbnail2.png" class="fade" alt="Oras App"></a>
-                            <div class="caption">
-                                <a href="http://orai.herokuapp.com" class="thumbTitle"><h3>"Oras"- get to know the weather</h3></a>
-                                <p>"Oras" is a responsive SPA weather app that consumes a weather API to display the latest weather forecast for the location you request for.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="thumbnail"><a href="https://einam.herokuapp.com"><img src="assets/img/einam_thumbnail2.png" class="fade" alt="Einam App"></a>
-                            <div class="caption">
-                                <a href="https://einam.herokuapp.com" class="thumbTitle"><h3>"Einam" - finding best places to order food at </h3></a>
-                                <p>"Einam" is a responsive SPA built entirely using the JavaScript's MEAN stack. It is a location-aware application for finding restaurants and bars near you and allows you to leave comments and ratings about them when logged
-                                    in. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
-                    <div class="col-md-offset-0 col-xs-12 text-center"><a href="https://www.facebook.com/zbignevas.boreiko"><i class="fa fa-facebook-official footer-icons fade"></i></a><a href="https://www.linkedin.com/in/zbignevas-boreiko-03944aa8?trk=hp-identity-name"><i class="fa fa-linkedin-square footer-icons fade"></i></a><a href="https://www.github.com/zbignevus"><i class="fa fa-github footer-icons fade"></i></a><a href="mailto:zbignevus@gmail.com"><i class="fa fa-envelope-square footer-icons fade"></i></a>
-                        <p>tel: +37067194599</p>
-                        <p>2016 Zbignev Boreiko</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-md-offset-2">
-                <div class="media">
-                    <div class="media-left">
-                        <a></a>
-                    </div>
-                    <div class="media-body"></div>
-                </div>
-            </div>
+      <div class="top-section-greeting">
+        <div class="welcome">
+          <h1>ZBIGNEV BOREIKO</h1>
+          <small>Welcome to my portfolio website!</small>
+          <small>Below you will find links to all my published projects.</small>
         </div>
+        <div class="tech-tools">
+          <img class="tech-tools-item" src="images/react.svg" />
+          <img class="tech-tools-item" src="images/javascript.svg" />
+          <img class="tech-tools-item" src="images/nodejs-icon.svg" />
+          <img class="tech-tools-item" src="images/python-4.svg" />
+
+        </div>
+      </div>
+
+  </div>
+  <div class="project-section">
+
+    <div class=project-item>
+      <h2 class="placard">PLACARD<span><img src="images/64px-React-icon.svg.png"/><img src="images/javascript.svg"/></span></h2>
+      <p><img src="images/Placard.png" class="project-thumbnail"/></p>
+      <p>Provides effective image search online while consuming the Unsplash API.Search for images by keywords, which are saved up as tags for your convenience.</p>
+      <a href="https://zbignevus.github.io/placard/" class="project-item-visit">Visit</a>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
 
+    <div class=project-item>
+      <h2 class="employr">EMPLOYR<span><img src="images/python-4.svg"/></span></h2>
+      <p><img src="images/employr2.png" class="project-thumbnail"/></p>
+      <p>An employee payroll application. Create employees, assign roles, set wages, schedules and calculate the payroll in a selected time range.</p>
+      <a href="http://zbignevus.pythonanywhere.com/" class="project-item-visit">Visit</a>
+    </div>
+
+    <div class=project-item>
+      <h2 class="palbox">Palbox<span><img src="images/64px-React-icon.svg.png"/><img src="images/javascript.svg"/></span></h2>
+      <p><img src="images/Palbox.png" class="project-thumbnail"/></p>
+      <p>A web color collection built with React. Use the palette box on the left to add your own, custom color to the site by typing in the search field above it either hex values or css color names.</p>
+      <a href="https://palbox-9e696.firebaseapp.com" class="project-item-visit">Visit</a>
+    </div>
+
+    <div class=project-item>
+      <h2 class="einam">Einam <span><img src="images/nodejs-icon.svg"/><img src="images/javascript.svg"/></span></h2>
+      <p><img src="images/Einam.png" class="project-thumbnail"/></p>
+      <p>It is a location-aware application for finding restaurants and bars near you and allows you to leave comments and ratings about them.</p>
+      <a href="http://practicezb.herokuapp.com/" class="project-item-visit">Visit</a>
+    </div>
+
+
+  </div>
+  <div class="footer-section">
+
+      <p>Want more info?<p>
+      <p><span class="github-page"><a href="https://github.com/zbignevus">Visit my Github page</a></span></p>
+
+  </div>
+
+
+<script>
+$(document).ready(function(){
+  $('.welcome').css('visibility','visible').hide().fadeIn(700, function(){
+    $('.tech-tools-item').css('visibility','visible').hide().fadeIn(700);
+    $('.project-section').css('visibility','visible').hide().fadeIn(700);
+    $('.footer-section').css('visibility','visible').hide().fadeIn(700);
+  });
+
+
+
+});
+
+</script>
+
+</body>
 </html>
