@@ -61,7 +61,7 @@ body{
       .top-section .tech-tools-item{
         visibility:hidden;
         margin: 14px;
-        height: 110px;
+        height: 97px;
         width: 110px;
       }
       @keyframes rotateAnimation{
