@@ -64,7 +64,17 @@ body{
         height: 110px;
         width: 110px;
       }
-
+      @keyframes rotateAnimation{
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .react-logo{
+        animation: rotateAnimation 15s infinite linear;
+      }
 
 .project-section {
   display:grid;
