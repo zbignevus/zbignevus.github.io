@@ -89,6 +89,9 @@ body{
   .project-section .project-item{
     width: 100%;
   }
+  .project-section .project-item small.info-status{
+    color: #FFD700;
+  }
   .project-section .project-item h2{
     margin: 5px;
     font-size: 3.5em;
